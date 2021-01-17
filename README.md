@@ -6,7 +6,7 @@ npm init -y
 npm install node-sass --save-dev
 
 #compile sass: 
-copy in package.json
+copy in package.json - 
 "scripts": {
     "compile-sass": "node-sass sass/main.scss css/style.css --watch"
   },
