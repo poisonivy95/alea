@@ -1,0 +1,19 @@
+@mixin flex($align, $justify, $direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin space-between-center($align) {
+    display: flex;
+    justify-content: space-between;
+    align-items: $align;
+}
+
+@mixin space-evenly($align) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: $align;
+}
+

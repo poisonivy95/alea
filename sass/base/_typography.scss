@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-size: 100%;
+
+    @media only screen and(max-width: $large-devices) {
+        font-size: 90%;
+    }
+    @media only screen and(max-width: $medium-devices) {
+        font-size: 70%;
+    }
+    @media only screen and(max-width: $small-devices) {
+        font-size: 55%;
+    }
+}
+
+body {
+    font-family: $font-primary;
+}
+
+h1{
+    font : {
+        size: 3rem;
+        weight: 400;
+    }
+    color: $font-color;
+}
+
+h2{
+    font : {
+        size: 1.8rem;
+        weight: 700;
+    }
+    color: $font-color;
+}
+
+h3{
+    font : {
+        size: 1.3rem;
+        weight: 500;
+    }
+    color: $font-color;
+}
+h4{
+    font : {
+        size: 1.05rem;
+        weight: 400;
+    }
+    color: $font-color;
+}
+p{
+    font : {
+        size: 0.9rem;
+        weight: 600;
+    }
+    color: $font-color;
+}
+
+.vs{
+    font : {
+        size: 1.5rem;
+        weight: 400;
+    }
+    color: $color-tertiary;
+}
+
+
+
+
+
